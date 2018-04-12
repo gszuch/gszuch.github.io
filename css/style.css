@@ -1,0 +1,82 @@
+body {
+  padding-top: 70px;
+  background-color: #222222;
+}
+
+.navbar-brand {
+  font-size: 3em;
+}
+
+.jumbotron {
+    background-color: #222222;
+}
+
+.section-pad{
+  margin: 40px;
+}
+
+.desc-pad {
+  text-align: center;
+text-decoration: none;
+  color: black;
+  padding-top: 20px;
+}
+
+#about {
+  background-color: #0d2ea5;
+  color: #FFFFFF;
+}
+
+#portfolio {
+  background-color: #580e60;
+  color: #FFFFFF;
+}
+
+#contact {
+  background-color: #e0a12c;
+  color: #000000;
+}
+.bio {
+  font-size: 2em;
+}
+
+h1 {
+  padding-bottom: 50px;
+}
+.lists {
+  background-color: transparent;
+  border: none;
+  padding-top: 20px;
+}
+
+.pic-decor {
+  border-radius: 8px;
+  background-color: transparent;
+  width: 75%;
+  margin-left: 40px;
+}
+
+.section {
+  padding-bottom: 50px;
+  }
+
+#contact {
+  padding-bottom: 75px;
+}
+.contact-icon {
+  font-size: 70px;
+  color: black;
+  margin: 20px;
+}
+
+.contact-icon:hover {
+  color: blue;
+}
+
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -40px;
+  height: 40px;
+  visibility: hidden;
+}
